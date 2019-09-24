@@ -127,6 +127,10 @@ section h1 {
   border: 2px solid #e9c91d;
 }
 
+#contact {
+  padding-top: 2rem;
+}
+
 #contact svg {
   height: 30px;
   width: 30px;
