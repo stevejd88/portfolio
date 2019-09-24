@@ -1,0 +1,218 @@
+/*-----  COLORS
+white: #fefefe;
+blue-black: #2e2e41;
+gold: #e9c91d;
+light-gray: #636363;
+light-blue: #2d4980;
+
+
+
+
+
+ ---------*/
+
+/*-----  MAIN CSS  ---------*/
+body {
+  border: 8px solid #2e2e41;
+  color: #2e2e41;
+  font-family: libre baskerville, Georgia, serif;
+}
+
+body,
+.main-nav,
+.main-div,
+.jumbo-home,
+#contact {
+  background-color: #fefefe;
+}
+
+section h1 {
+  text-transform: uppercase;
+  padding-bottom: 1.5rem;
+}
+
+.main-nav {
+  border-top: 8px solid #2e2e41;
+  border-left: 8px solid #2e2e41;
+  border-right: 8px solid #2e2e41;
+}
+
+.navbar-brand {
+  border: 3px solid #2e2e41;
+  padding: 5px;
+}
+
+.jumbo-home {
+  padding-bottom: 0;
+}
+
+.lead {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.portrait {
+  opacity: 0.9;
+}
+
+.right-now {
+  margin-bottom: 2.5rem;
+}
+
+.card {
+  border: 2px solid #2e2e41;
+}
+
+.card h5 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card-body {
+  color: #fefefe;
+  background-color: #2e2e41;
+}
+
+.view {
+  color: #2e2e41;
+  background-color: #fefefe;
+  border: 2px solid #e9c91d;
+}
+
+.card li {
+  list-style: none;
+  padding-left: 0;
+}
+
+.card ul {
+  padding-left: 0;
+
+}
+
+.tech {
+  color: #e9c91d;
+}
+
+#skills,
+#portfolio {
+  margin-top: 7rem;
+  margin-bottom: 3rem;
+  padding-top: 3.75rem;
+}
+
+#about {
+  padding-top: 4.25rem;
+}
+
+ #skills svg {
+   height: 80px;
+   width: 80px;
+   margin-bottom: 1.5rem;
+}
+
+.social-media {
+  background-color: #2e2e41;
+  border-radius: 6px;
+  padding: 1rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.email,
+.linkedin,
+.github,
+.twitter {
+  color: #2e2e41;
+  background-color: #fefefe;
+  border: 2px solid #e9c91d;
+}
+
+#contact svg {
+  height: 30px;
+  width: 30px;
+}
+
+#contact a {
+  margin-bottom: 1rem;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.email,
+.linkedin,
+.github,
+.twitter {
+  width: 50%;
+}
+
+footer {
+  padding-bottom: 3rem;
+}
+
+
+/*-----  MEDIA QUERIES ---------*/
+@media (min-width: 576px) {
+  .lead {
+    font-size: 1.8rem;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .jumbo-home {
+    padding-bottom: 2rem;
+  }
+
+  .card {
+    height: 675px;
+  }
+
+  .card img {
+    min-height: 230px;
+    max-height: 230px;
+  }
+
+  .card-body {
+    position: relative;
+  }
+
+  .view-btn {
+      position: absolute;
+      bottom: 0;
+      margin: auto;
+      margin-bottom: 2rem;
+  }
+
+  .social-media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  /* .email {
+    font-size: 18px;
+  } */
+
+  .email,
+  .linkedin,
+  .github,
+  .twitter {
+    width: 16%;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .email,
+  .linkedin,
+  .github,
+  .twitter {
+    width: 16%;
+  }
+
+}
