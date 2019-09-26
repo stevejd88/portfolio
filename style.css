@@ -43,11 +43,12 @@ section h1 {
 }
 
 .jumbo-home {
+  padding-top: 2.5rem;
   padding-bottom: 0;
 }
 
 .lead {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   margin-top: 1rem;
 }
 
@@ -158,6 +159,45 @@ footer {
   padding-bottom: 3rem;
 }
 
+/* -------event listener--------- */
+#about-headings {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-bottom: 30px;
+}
+
+#head-now,
+#head-goal,
+#head-about {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.right-now,
+.goal-body {
+  display: none;
+}
+
+
+.selected {
+  color: #e9c91d;
+  border: 2px solid #2e2e41;
+  border-radius: 5px;
+}
+
+.not-selected {
+  color: #2e2e41;
+  border: none;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
 
 /*-----  MEDIA QUERIES ---------*/
 @media (min-width: 576px) {

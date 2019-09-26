@@ -40,13 +40,28 @@
     <!-- container -->
     <div class="main-div container">
       <!-- about -->
-      <section id="about" >
+      <section id="about">
+
+
         <div class="row mb-5">
           <div class="col-md">
-            <h4>About</h4>
-            <p>I love to create, and my goal as a front-end developer is to bring a pleasing and aesthetic experience for users. Most importantly I seek to bring meaningful attention to company brands.</p>
-            <p>I am a lifelong learner, so after seven years of working in elementary education I decided to listen to what I have taught my students. I decided to learn something that I was always interested in, and now I have found a new passion in tech.</p>
-            <p>As a junior developer candidate I have much to learn, but I bring with me years of experience in leadership, collaboration, data analysis, and strong presentation and communication skills.</p>
+            <div id="about-headings">
+              <h4 id="head-about" class="selected">About</h4>
+              <h4 id="head-now">Right Now</h4>
+              <h4 id="head-goal">Goals</h4>
+            </div>
+
+            <div id="about-body">
+              <p>I love to create, and my goal as a front-end developer is to bring a pleasing and aesthetic experience for users. Most importantly I seek to bring meaningful attention to company brands.</p>
+              <p>I am a lifelong learner, so after seven years of working in elementary education I decided to listen to what I have taught my students. I decided to learn something that I was always interested in, and now I have found a new passion in tech.</p>
+              <p>As a junior developer candidate I have much to learn, but I bring with me years of experience in leadership, collaboration, data analysis, and strong presentation and communication skills.</p>
+            </div>
+            <div id="right-now" class="hide">
+              <p>I am currently seeking my first position as a junior developer, and networking. I am also working on deepening my knowledge of JavaScript, and learning the React framework. </p>
+            </div>
+            <div id="goal-body" class="hide">
+              <p>My future goals include learning some back end languages such as Python, PHP, and Java. Eventually I would like to transition into becoming a full-stack developer.</p>
+            </div>
           </div>
           <div class="col-md">
             <img class="portrait img-fluid rounded" src="img/portrait.png" alt="Steven">
@@ -54,14 +69,6 @@
         </div>
       </section><!-- /about -->
 
-      <section class="right-now">
-        <h4>What I'm Working On Right Now</h4>
-        <p>I am currently seeking my first position as a junior developer, and networking. I am also working on deepening my knowledge of JavaScript, and learning the React framework. </p>
-      </section>
-      <section>
-        <h4>Goals</h4>
-        <p>My future goals include learning some back end languages such as Python, PHP, and Java. Eventually I would like to transition into becoming a full-stack developer.</p>
-      </section>
 
       <!-- portfolio -->
         <section id="portfolio">
@@ -307,5 +314,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
